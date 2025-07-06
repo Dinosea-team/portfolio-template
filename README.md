@@ -1,12 +1,25 @@
-# React + Vite
+# My Portfolio Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 나만의 깃허브 포트폴리오 템플릿
 
-Currently, two official plugins are available:
+### 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Node.js & npm 확인**  
+   공식 [Node.js LTS](https://nodejs.org/)를 설치 후 버전 확인:
+   ```bash
+   node -v  # >=16.x
+   npm -v   # >=8.x
+   ```
 
-## Expanding the ESLint configuration
+2. **프로젝트 생성 (Vite + React)**  
+   Vite로 초기화하고 의존성 설치:
+   ```bash
+   npm create vite@latest my-portfolio -- --template react
+   cd my-portfolio
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **개발 서버 실행**
+   ```bash
+   npm run dev
+   ```
