@@ -14,7 +14,6 @@
 2. **프로젝트 생성 (Vite + React)**  
    Vite로 초기화하고 의존성 설치:
    ```bash
-   npm create vite@latest my-portfolio -- --template react
    cd my-portfolio
    npm install
    ```
