@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import codeImg from "../assets/code.jpg";
 import laptopImg from "../assets/laptop.jpg";
 import uiuxImg from "../assets/uiux.jpg";
@@ -25,7 +24,7 @@ const projects = [
     title: "Blog Platform",
     desc: "Markdown 지원 블로그 플랫폼.",
     img: uiuxImg,
-    url: "/", // 실제 URL로 변경 필요
+    url: "/", // 실제 URL로 변경 필요b
   },
   {
     id: 4,
