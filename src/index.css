@@ -122,6 +122,10 @@ main {
   font-size: 0.8rem;
 }
 
+.profile-description {
+  font-size: 15px;
+}
+
 /* Portfolio */
 
 .portfolio-grid {

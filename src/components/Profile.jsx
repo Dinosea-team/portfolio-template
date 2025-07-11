@@ -29,7 +29,7 @@ export default function Profile() {
             </span>
           ))}
         </div>
-        <div>
+        <div className="profile-description">
           <p>
             <strong>프론트엔드 개발자</strong> 지망생으로, 사용자 경험을
             중시하는 깔끔한 웹을 만듭니다.
